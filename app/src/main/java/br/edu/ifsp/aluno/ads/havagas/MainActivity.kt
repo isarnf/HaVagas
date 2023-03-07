@@ -55,33 +55,33 @@ class MainActivity : AppCompatActivity() {
 
 
             salvarBt.setOnClickListener {
-                var sexo: String?
+                val sexo: String?
                 if(femininoRb.isSelected){
                     sexo="Feminino"
                 }else{
                     sexo="Masculino"
                 }
 
-                var desejaReceberEmail: String?
+                val desejaReceberEmail: String?
                 if(simRb.isSelected){
                     desejaReceberEmail="Sim"
                 }else{
                     desejaReceberEmail="Não"
                 }
 
-                var telefoneTipo: String?
+                val telefoneTipo: String?
                 if(comercialRb.isSelected){
                     telefoneTipo="Comercial"
                 }else{
                     telefoneTipo="Residencial"
                 }
 
-                var day=dataNascimentoDp.dayOfMonth
-                var month=dataNascimentoDp.month
-                var year=dataNascimentoDp.year
-                var data = "${day}/${month}/${year}"
+                val day=dataNascimentoDp.dayOfMonth
+                val month=dataNascimentoDp.month
+                val year=dataNascimentoDp.year
+                val data = "${day}/${month}/${year}"
 
-                var pessoa = Pessoa(nomeCompletoEt.text.toString(), emailEt.text.toString(), desejaReceberEmail,
+                val pessoa = Pessoa(nomeCompletoEt.text.toString(), emailEt.text.toString(), desejaReceberEmail,
                     telefoneEt.text.toString(), telefoneTipo, telefoneCelularEt.text.toString(), sexo,
                     data, formacaoSp.selectedItem.toString(), anoFormacaoEt.text.toString(),
                     instituicaoEt.text.toString(),tituloMonografiaEt.text.toString(),

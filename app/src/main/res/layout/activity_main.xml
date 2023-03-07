@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="25sp"
-        android:text="Preencha os dados abaixo"
+        android:text="@string/preenchaDadosTv"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Nome completo"
+        android:hint="@string/nomeCompletoEt"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="E-mail"
+        android:hint="@string/emailEt"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:padding="5dp"
@@ -53,7 +53,7 @@
         android:id="@+id/receberEmailsTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Deseja receber e-mails com atualizações de oportunidades?"
+        android:text="@string/receberEmailsTv"
         android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,14 +76,14 @@
             android:id="@+id/simRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sim"
+            android:text="@string/simRb"
             android:checked="true"/>
 
         <RadioButton
             android:id="@+id/naoRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Não"
+            android:text="@string/naoRb"
             app:layout_constraintStart_toEndOf="@+id/simRb"/>
 
     </RadioGroup>
@@ -92,7 +92,7 @@
         android:id="@+id/telefoneTipoTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Escolha o tipo de telefone e digite seu número abaixo"
+        android:text="@string/telefoneTipoTv"
         android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,13 +115,13 @@
             android:id="@+id/comercialRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Comercial"/>
+            android:text="@string/comercialRb"/>
 
         <RadioButton
             android:id="@+id/residencialRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Residencial"
+            android:text="@string/residencialRb"
             android:checked="true"/>
 
     </RadioGroup>
@@ -131,7 +131,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Telefone"
+        android:hint="@string/telefoneEt"
         android:inputType="number"
         android:minHeight="48dp"
         android:padding="5dp"
@@ -145,7 +145,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="Clique aqui para adicionar seu telefone celular"
+        android:text="@string/telefoneCelularBt"
         android:textColor="#00BCD4"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
@@ -157,7 +157,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Telefone celular"
+        android:hint="@string/telefoneCelularEt"
         android:inputType="number"
         android:minHeight="48dp"
         android:padding="5dp"
@@ -170,7 +170,7 @@
         android:id="@+id/sexoTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sexo"
+        android:text="@string/sexoTv"
         android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -193,14 +193,14 @@
             android:id="@+id/femininoRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Feminino"
+            android:text="@string/femininoRb"
             android:checked="true"/>
 
         <RadioButton
             android:id="@+id/masculinoRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Masculino"/>
+            android:text="@string/masculinoRb"/>
 
     </RadioGroup>
 
@@ -208,7 +208,7 @@
         android:id="@+id/dataNascimentoTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Data de nascimento"
+        android:text="@string/dataNascimentoTv"
         android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -242,7 +242,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Ano de conclusão"
+        android:hint="@string/anoFormacaoEt"
         android:inputType="number"
         android:visibility="gone"
         android:minHeight="48dp"
@@ -256,7 +256,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Instituição"
+        android:hint="@string/instituicaoEt"
         android:inputType="text"
         android:visibility="gone"
         android:minHeight="48dp"
@@ -270,7 +270,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Título da monografia"
+        android:hint="@string/tituloMonografiaEt"
         android:inputType="text"
         android:visibility="gone"
         android:minHeight="48dp"
@@ -284,7 +284,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:hint="Orientador"
+        android:hint="@string/orientadorEt"
         android:inputType="textPersonName"
         android:visibility="gone"
         android:minHeight="48dp"
@@ -300,7 +300,7 @@
         android:layout_margin="5dp"
         android:maxLines="30"
         android:background="@drawable/et_layout"
-        android:hint="Escreva aqui as vagas de seu interesse"
+        android:hint="@string/vagasInteresseEt"
         android:inputType="textMultiLine"
         android:gravity="left|top"
         android:overScrollMode="always"
@@ -316,7 +316,7 @@
         android:id="@+id/salvarBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Salvar"
+        android:text="@string/salvarBt"
         android:layout_margin="5dp"
         android:padding="5dp"
         android:textAllCaps="false"
@@ -328,7 +328,7 @@
         android:id="@+id/limparBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Limpar"
+        android:text="@string/limparBt"
         android:layout_margin="5dp"
         android:padding="5dp"
         android:textAllCaps="false"
